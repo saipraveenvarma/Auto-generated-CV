@@ -83,9 +83,44 @@ main>.right>.block1{
     display: none;
 }
 
-.left input{
-    margin: 10px;
-    border: 1px solid black;
+input[type=text], select, textarea {
+    width: 60%;
+    padding: 12px;
+    border: 2px solid rgb(101, 28, 28);
     border-radius: 20px;
-    padding: 5px;
-}
+    resize: vertical;
+    justify-content: center;
+    display: block;
+    float: right;
+   
+        
+    
+  }
+
+  input[type=email], select, textarea {
+    width: 60%;
+    padding: 12px;
+    border: 2px solid rgb(101, 28, 28);
+    border-radius: 20px;
+    resize: vertical;
+    justify-content: center;
+    float: right;
+    display: block;
+  }
+
+  input[type=tel], select, textarea {
+    width: 60%;
+    padding: 12px;
+    border: 2px solid rgb(101, 28, 28);
+    border-radius: 20px;
+    resize: vertical;
+    justify-content: center;
+    float: right;
+    display: block;
+  }
+
+  label {
+    padding: 30px 30px 30px 0;
+    display: inline-block;
+    justify-content: center;
+  }
